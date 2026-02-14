@@ -1,0 +1,41 @@
+/* CSS Basics - Starter Styles */
+
+/* Element selector - targets all elements of this type */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+h1 {
+  color: darkblue;
+}
+
+/* Class selector - targets elements with class="subtitle" */
+.subtitle {
+  color: gray;
+  font-style: italic;
+}
+
+/* ID selector - targets the element with id="special" */
+#special {
+  /* TODO: Add some styles here */
+}
+
+/* Class selector */
+.highlight {
+  /* TODO: Make this stand out */
+}
+
+/* Styling a list */
+.color-list {
+  /* TODO: Style this list */
+}
+
+/*
+EXERCISES:
+1. Change the background color of the body
+2. Style the #special paragraph (try: background-color, padding)
+3. Make .highlight stand out (try: background-color, font-weight)
+4. Remove the bullet points from .color-list (hint: list-style)
+5. Change the h2 color
+*/
