@@ -54,8 +54,56 @@ nav {
 }
 ```
 
-## Exercise
-1. Customize the color scheme
-2. Add more sections to the page
-3. Add hover effects to links and buttons
-4. Try making the hero full-height: `min-height: 100vh;`
+## Exercises
+
+### Exercise 1: Style the Navigation
+Add styles to `nav`:
+- `display: flex;`
+- `justify-content: space-between;`
+- `align-items: center;`
+- `padding: 1rem 2rem;`
+- `background-color: #333;`
+
+### Exercise 2: Style the Logo
+Add styles to `.logo`:
+- `color: white;`
+- `font-size: 1.5rem;`
+- `font-weight: bold;`
+- `text-decoration: none;`
+
+### Exercise 3: Style the Nav Links
+Add styles to `.nav-links`:
+- `display: flex;`
+- `list-style: none;`
+- `gap: 2rem;`
+
+Add styles to `.nav-links a`:
+- `color: white;`
+- `text-decoration: none;`
+
+### Exercise 4: Style the Hero Section
+Add styles to `.hero`:
+- `text-align: center;`
+- `padding: 4rem 2rem;`
+- `background-color: #f4f4f4;`
+
+Style `.hero h1` with larger font and margin-bottom.
+
+### Exercise 5: Style the Button
+Add styles to `.button`:
+- `display: inline-block;`
+- `padding: 0.75rem 1.5rem;`
+- `background-color: #333;`
+- `color: white;`
+- `text-decoration: none;`
+
+Add a hover effect to `.button:hover`:
+- `background-color: #555;`
+
+### Exercise 6: Style the Footer
+Make the footer match the nav bar style.
+
+### Bonus Challenges
+- Make the hero full-screen: `min-height: 100vh;`
+- Add smooth transitions: `transition: all 0.3s ease;`
+- Add hover underline to nav links

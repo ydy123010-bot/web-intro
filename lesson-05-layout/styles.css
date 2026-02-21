@@ -11,85 +11,79 @@ body {
   line-height: 1.6;
 }
 
-/* Navigation */
+/* ===== NAVIGATION ===== */
+/* TODO: Style the nav bar */
 nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1rem 2rem;
-  background-color: #333;
+  /* TODO: Use flexbox to layout the nav */
+  /* TODO: Add padding */
+  /* TODO: Add a background color */
 }
 
 .logo {
-  color: white;
-  font-size: 1.5rem;
-  font-weight: bold;
-  text-decoration: none;
+  /* TODO: Style the logo text */
+  /* TODO: Remove the underline (text-decoration: none) */
 }
 
 .nav-links {
-  display: flex;
-  list-style: none;
-  gap: 2rem;
+  /* TODO: Use flexbox to layout the links horizontally */
+  /* TODO: Remove list bullets (list-style: none) */
+  /* TODO: Add gap between links */
 }
 
 .nav-links a {
-  color: white;
-  text-decoration: none;
+  /* TODO: Style the nav links */
+  /* TODO: Remove underlines */
 }
 
-.nav-links a:hover {
-  text-decoration: underline;
-}
-
-/* Hero Section */
+/* ===== HERO SECTION ===== */
 .hero {
-  text-align: center;
-  padding: 4rem 2rem;
-  background-color: #f4f4f4;
+  /* TODO: Add padding */
+  /* TODO: Center the text */
+  /* TODO: Add a background color */
 }
 
 .hero h1 {
-  font-size: 2.5rem;
-  margin-bottom: 1rem;
+  /* TODO: Make the heading larger */
+  /* TODO: Add margin below */
 }
 
-/* Button */
+/* ===== BUTTON ===== */
 .button {
-  display: inline-block;
-  padding: 0.75rem 1.5rem;
-  background-color: #333;
-  color: white;
-  text-decoration: none;
-  margin-top: 1rem;
+  /* TODO: Add padding */
+  /* TODO: Add background color */
+  /* TODO: Style the text (color, remove underline) */
+  /* HINT: Add display: inline-block; so padding works properly */
 }
 
 .button:hover {
-  background-color: #555;
+  /* TODO: Add a hover effect */
+  /* HINT: Try changing background color or adding transform: scale(1.05) */
 }
 
-/* Sections */
+/* ===== SECTIONS ===== */
 section {
-  padding: 3rem 2rem;
+  /* TODO: Add padding */
 }
 
 section h2 {
-  margin-bottom: 1rem;
+  /* TODO: Add margin below headings */
 }
 
-/* Footer */
+/* ===== FOOTER ===== */
 footer {
-  text-align: center;
-  padding: 2rem;
-  background-color: #333;
-  color: white;
+  /* TODO: Add padding */
+  /* TODO: Add background color */
+  /* TODO: Style the text */
+  /* TODO: Center the text */
 }
 
 /*
 EXERCISES:
-1. Change the color scheme (try a different background/text color)
-2. Make the hero section taller
-3. Add a hover effect to the button (try transform: scale)
-4. Add more content to the About section
-5. Try adding an image to the hero
+1. Style the navigation bar using flexbox (logo on left, links on right)
+2. Make the nav links display horizontally with gap between them
+3. Style the hero section (large heading, centered, nice background)
+4. Style the button with padding and hover effects
+5. Style the footer to match the nav bar
+6. BONUS: Make the hero full-screen height with min-height: 100vh;
+7. BONUS: Add smooth hover transitions with transition: all 0.3s ease;
 */

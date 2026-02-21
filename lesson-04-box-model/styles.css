@@ -19,50 +19,53 @@ section {
   margin-bottom: 40px;
 }
 
-/* Box Model Demo */
+/* ===== BOX MODEL DEMO ===== */
+/* TODO: Add styles to .box to demonstrate the box model */
 .box {
-  background-color: lightblue;
-  padding: 20px;        /* Space inside the box */
-  border: 3px solid blue;
-  margin: 20px;         /* Space outside the box */
-  width: 300px;
+  /* TODO: Add a background-color */
+  /* TODO: Add padding (space inside) */
+  /* TODO: Add a border */
+  /* TODO: Add margin (space outside) */
+  /* TODO: Set a width */
 }
 
-/* Flexbox Container */
+/* ===== FLEXBOX LAYOUT ===== */
+/* TODO: Make .flex-container a flex container */
 .flex-container {
-  display: flex;
-  gap: 10px;
-  /* Try these: */
-  /* justify-content: center; */
-  /* justify-content: space-between; */
-  /* align-items: center; */
+  /* TODO: Add display: flex; */
+  /* TODO: Add gap between items */
+  /* TODO: Try justify-content: center; */
+  /* TODO: Try justify-content: space-between; */
 }
 
+/* TODO: Style the flex items */
 .flex-item {
-  background-color: coral;
-  padding: 40px;
-  font-size: 24px;
-  text-align: center;
+  /* TODO: Add a background-color */
+  /* TODO: Add padding */
+  /* TODO: Increase font-size */
+  /* TODO: Center the text */
 }
 
-/* Card Layout - TODO: Style these! */
+/* ===== CARD LAYOUT CHALLENGE ===== */
 .card-container {
   /* TODO: Make this a flex container */
   /* TODO: Add gap between cards */
 }
 
 .card {
-  background-color: white;
+  /* TODO: Add background-color */
   /* TODO: Add padding */
   /* TODO: Add a border or shadow */
-  /* TODO: Set a width or let flex handle it */
+  /* HINT: box-shadow: 0 2px 4px rgba(0,0,0,0.1); */
 }
 
 /*
 EXERCISES:
-1. Change the .box padding and margin - observe the difference
-2. Uncomment the justify-content lines one at a time
-3. Style .card-container as a flex container
-4. Make the cards look nice with padding, borders, shadows
-5. Try: box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+1. Style .box with padding, margin, border, and background-color
+   - Open DevTools (F12) and inspect the box to see the box model diagram!
+2. Make .flex-container use display: flex and add a gap
+3. Style .flex-item with background color and padding
+4. Try different justify-content values: center, space-between, space-around
+5. Style .card-container as a flex container
+6. Make the cards look professional with padding, borders, and shadows
 */
