@@ -24,15 +24,34 @@ section {
 .box {
   /* TODO: Add a background-color */
   /* TODO: Add padding (space inside) */
+  padding: 15px;
   /* TODO: Add a border */
+  border-width: 5px;
+  border-style: solid;
   /* TODO: Add margin (space outside) */
+  margin:100px;
+
   /* TODO: Set a width */
 }
+.box2 {
+  /* TODO: Add a background-color */
+  /* TODO: Add padding (space inside) */
+  padding: 0px;
+  /* TODO: Add a border */
+  border-width: 9px;
+  border-style: ridge;
+  /* TODO: Add margin (space outside) */
+  margin:10px;
 
+  /* TODO: Set a width */
+}
 /* ===== FLEXBOX LAYOUT ===== */
 /* TODO: Make .flex-container a flex container */
 .flex-container {
   /* TODO: Add display: flex; */
+  display:flex;
+  gap:6px;
+  justify-content: space-between;
   /* TODO: Add gap between items */
   /* TODO: Try justify-content: center; */
   /* TODO: Try justify-content: space-between; */
