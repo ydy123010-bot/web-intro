@@ -14,50 +14,55 @@ body {
 /* ===== NAVIGATION ===== */
 /* TODO: Style the nav bar */
 nav {
-  /* TODO: Use flexbox to layout the nav */
-  /* TODO: Add padding */
-  /* TODO: Add a background color */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #333;
 }
 
 .logo {
-  /* TODO: Style the logo text */
-  /* TODO: Remove the underline (text-decoration: none) */
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-decoration: none;
 }
 
 .nav-links {
-  /* TODO: Use flexbox to layout the links horizontally */
-  /* TODO: Remove list bullets (list-style: none) */
-  /* TODO: Add gap between links */
+  display: flex;
+  list-style: none;
+  gap: 2rem;
 }
 
 .nav-links a {
-  /* TODO: Style the nav links */
-  /* TODO: Remove underlines */
+  color: white;
+  text-decoration: none;
 }
 
 /* ===== HERO SECTION ===== */
 .hero {
-  /* TODO: Add padding */
-  /* TODO: Center the text */
-  /* TODO: Add a background color */
+  text-align: center;
+  padding: 4rem 2rem;
+  background-color: #f4f4f4;
 }
 
 .hero h1 {
-  /* TODO: Make the heading larger */
-  /* TODO: Add margin below */
+  text-align:bottom;
+padding:6rem 4rem;
+background-color: #f4f4f4;
 }
 
 /* ===== BUTTON ===== */
 .button {
-  /* TODO: Add padding */
-  /* TODO: Add background color */
-  /* TODO: Style the text (color, remove underline) */
-  /* HINT: Add display: inline-block; so padding works properly */
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background-color: #333;
+  color: white;
+  text-decoration: none;
 }
 
 .button:hover {
-  /* TODO: Add a hover effect */
-  /* HINT: Try changing background color or adding transform: scale(1.05) */
+  background-color: #555;
 }
 
 /* ===== SECTIONS ===== */
@@ -71,10 +76,10 @@ section h2 {
 
 /* ===== FOOTER ===== */
 footer {
-  /* TODO: Add padding */
-  /* TODO: Add background color */
-  /* TODO: Style the text */
-  /* TODO: Center the text */
+  padding: 0.75rem 1.5rem;
+  background-color: grey;
+  font-family:bold;
+  align-items:center;
 }
 
 /*
