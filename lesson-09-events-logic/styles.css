@@ -37,7 +37,7 @@ input {
 
 /* Active state for toggle */
 .box.active {
-  background-color: #4CAF50;
+  background-color: #f00;
   color: white;
   transform: scale(1.1);
 }

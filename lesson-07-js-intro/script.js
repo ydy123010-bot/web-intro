@@ -31,19 +31,22 @@ console.log("a * b =", a * b);
 console.log("a / b =", a / b);
 
 // 5. Strings
-let greeting = "Hello";
+let greet = "Hello";
 let target = "World";
-let message = greeting + " " + target + "!";
-
+let message = "My Name Is Jake";
+let favColor = "Red";
+age = age * 365;
+console.log(age);
 console.log(message);
 
 // Template literals (easier string building)
-let betterMessage = `${greeting} ${target}!`;
+let betterMessage = `${greet} ${favColor} ${target}!`;
 console.log(betterMessage);
 
 // 6. Updating the page
+//document.getElementById("output").textContent = message;
+console.log(document.getElementById("output").textContent);
 document.getElementById("output").textContent = message;
-
 /*
 EXERCISES:
 1. Change the name variable to your name

@@ -13,9 +13,11 @@ checkAgeBtn.addEventListener("click", function() {
     ageResult.textContent = "That's not a valid age!";
   } else if (age < 13) {
     ageResult.textContent = "You're a kid!";
-  } else if (age < 20) {
-    ageResult.textContent = "You're a teenager!";
-  } else {
+  } else if (age < 14) {
+    ageResult.textContent = "You're a junior high schooler!";
+  }else if (age< 19){
+    ageResult.textContent = "You're a high schooler!"
+  }else {
     ageResult.textContent = "You're an adult!";
   }
 });
@@ -46,15 +48,7 @@ const secret = document.getElementById("secret");
 let isVisible = false;
 
 showHideBtn.addEventListener("click", function() {
-  if (isVisible) {
-    secret.classList.add("hidden");
-    showHideBtn.textContent = "Show Secret";
-    isVisible = false;
-  } else {
-    secret.classList.remove("hidden");
-    showHideBtn.textContent = "Hide Secret";
-    isVisible = true;
-  }
+  secret.classList.toggle("hidden");
 });
 
 
@@ -66,15 +60,31 @@ const nameDisplay = document.getElementById("name-display");
 // "input" event fires every time the value changes
 nameInput.addEventListener("input", function() {
   const name = nameInput.value;
+      if (name === "") {
+        nameDisplay.textContent = "stranger";
+      }else if(name.length < 2){
+        nameDisplay.textContent = "Too Short!";
+      } else {
+        nameDisplay.textContent = name;
+      } 
+  });
 
-  if (name === "") {
-    nameDisplay.textContent = "stranger";
-  } else {
-    nameDisplay.textContent = name;
-  }
+const passwordInput = document.getElementById("password-input");
+const passwordDisplay = document.getElementById("password-display");
+
+passwordInput.addEventListener("input",function(){
+  console.log("work")
+  const password = passwordInput.value;
+    if(password.length < 6){
+      passwordDisplay.textContent = " Too Weak";
+    }else if(password.length >=6 && password.length <= 10){
+      passwordDisplay.textContent = " Medium";
+    }else if(password.length > 10){
+      passwordDisplay.textContent = " Strong";
+    }else{
+      passwordDisplay.textContent = " not correct";
+    }
 });
-
-
 /*
 EXERCISES:
 
